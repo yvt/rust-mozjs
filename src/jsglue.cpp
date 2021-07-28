@@ -744,7 +744,7 @@ WrapperNew(JSContext* aCx, JS::HandleObject aObj, const void* aHandler,
 
 const JSClass WindowProxyClass = PROXY_CLASS_DEF(
     "Proxy",
-    JSCLASS_HAS_RESERVED_SLOTS(1)); /* additional class flags */
+    JSCLASS_HAS_RESERVED_SLOTS(2)); /* additional class flags */
 
 const JSClass*
 GetWindowProxyClass()
